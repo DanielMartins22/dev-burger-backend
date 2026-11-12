@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Environment
+.env*
+!.env.example
+
+# Uploaded files (runtime data)
+/uploads/*
+!/uploads/.gitkeep
+
+# Build output
+dist/
+build/
+.cache/
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
